@@ -20,7 +20,7 @@ class School
   end 
   
   def sort(name)
-    name.sort 
+    name.transform_values
   end  
 end
 
