@@ -20,7 +20,7 @@ class School
   end 
   
   def sort(name) 
-    name.sort_by!{name}
+    name.sort_by!(name)
   end  
 end
 
