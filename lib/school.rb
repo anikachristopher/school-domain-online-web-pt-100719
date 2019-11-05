@@ -19,7 +19,7 @@ class School
     @roster[grade]
   end 
   
-  def sort(name)
+  def sort
     @roster.transform_values {|student| student.sort}
   end  
 end
