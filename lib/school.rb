@@ -20,7 +20,7 @@ class School
   end 
   
   def sort(name)
-    @roster.transform_values {|student| student.sort}
+    @roster.transform_values {|student|student.sort}
   end  
 end
 
